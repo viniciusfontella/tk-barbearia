@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TK Barbearia | Corte Masculino em Caçapava</title>
+  <meta name="description" content="TK Barbearia em Caçapava Velha: corte masculino, barba, bigode e navalhado. Mais de 10 mil clientes satisfeitos. Agende pelo WhatsApp.">
+  <meta property="og:title" content="TK Barbearia | Corte Masculino em Caçapava">
+  <meta property="og:description" content="Barba, cabelo e bigode com precisão. Agende pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="TK Barbearia - início">
+        <img class="logo-img" src="img/logo.png" alt="Logo TK Barbearia">
+      </a>
+
+      <p class="status" id="status" aria-live="polite">
+        <span class="status-dot"></span>
+        <span class="status-text">Verificando horário…</span>
+      </p>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="menu">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." class="btn btn-small" target="_blank" rel="noopener">Agendar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-pole" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow reveal">Barbearia em Caçapava · Caçapava Velha</p>
+        <h1 class="reveal">Barba, cabelo e bigode com <span class="gold">precisão</span> e estilo.</h1>
+        <p class="lead reveal">Especialistas em corte masculino. Mais de 10 mil clientes satisfeitos e milhares de avaliações no Google.</p>
+
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+          <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+        </div>
+
+        <ul class="hero-stats reveal">
+          <li>
+            <strong><span data-count="10000" data-suffix="+">0</span></strong>
+            <span>clientes satisfeitos</span>
+          </li>
+          <li>
+            <strong><span data-count="5015">0</span></strong>
+            <span>avaliações no Google</span>
+          </li>
+          <li>
+            <strong><span data-count="6">0</span> dias</strong>
+            <span>por semana, de seg. a sáb.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SERVIÇOS (carrossel horizontal) ===== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Serviços</p>
+          <h2>Escolha o seu corte</h2>
+          <p class="section-sub">Deslize para ver os serviços disponíveis.</p>
+        </header>
+      </div>
+
+      <div class="rail-wrap reveal">
+        <button class="rail-btn rail-prev" id="railPrev" aria-label="Serviço anterior">‹</button>
+
+        <div class="rail" id="rail" tabindex="0" aria-label="Lista de serviços">
+
+          <article class="service-card">
+            <div class="service-media">
+              <span class="media-placeholder">Foto do resultado</span>
+              <img src="img/maquina-tesoura.jpg" alt="Resultado do corte Máquina + Tesoura" loading="lazy">
+            </div>
+            <div class="service-body">
+              <span class="service-tag">Corte</span>
+              <h3>Máquina + Tesoura</h3>
+              <p class="service-price">R$100</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20M%C3%A1quina%20%2B%20Tesoura." target="_blank" rel="noopener">Agendar</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-media">
+              <span class="media-placeholder">Foto do resultado</span>
+              <img src="img/navalhado.jpg" alt="Resultado do corte Navalhado" loading="lazy">
+            </div>
+            <div class="service-body">
+              <span class="service-tag">Acabamento</span>
+              <h3>Navalhado</h3>
+              <p class="service-price">R$100</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20navalhado." target="_blank" rel="noopener">Agendar</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-media">
+              <span class="media-placeholder">Foto do resultado</span>
+              <img src="img/maquina.jpg" alt="Resultado do corte na Máquina" loading="lazy">
+            </div>
+            <div class="service-body">
+              <span class="service-tag">Corte</span>
+              <h3>Máquina</h3>
+              <p class="service-price">R$100</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20corte%20na%20m%C3%A1quina." target="_blank" rel="noopener">Agendar</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-media">
+              <span class="media-placeholder">Foto do resultado</span>
+              <img src="img/so-tesoura.jpg" alt="Resultado do corte Só na Tesoura" loading="lazy">
+            </div>
+            <div class="service-body">
+              <span class="service-tag">Corte</span>
+              <h3>Só na Tesoura</h3>
+              <p class="service-price">R$100</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20corte%20s%C3%B3%20na%20tesoura." target="_blank" rel="noopener">Agendar</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-media">
+              <span class="media-placeholder">Foto do resultado</span>
+              <img src="img/barba.jpg" alt="Resultado do serviço de Barba" loading="lazy">
+            </div>
+            <div class="service-body">
+              <span class="service-tag">Barba</span>
+              <h3>Barba</h3>
+              <p class="service-price">R$100</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20a%20barba." target="_blank" rel="noopener">Agendar</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-media">
+              <span class="media-placeholder">Foto do resultado</span>
+              <img src="img/bigode.jpg" alt="Resultado do serviço de Bigode" loading="lazy">
+            </div>
+            <div class="service-body">
+              <span class="service-tag">Bigode</span>
+              <h3>Bigode</h3>
+              <p class="service-price">R$100</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20o%20bigode." target="_blank" rel="noopener">Agendar</a>
+            </div>
+          </article>
+
+        </div>
+
+        <button class="rail-btn rail-next" id="railNext" aria-label="Próximo serviço">›</button>
+      </div>
+
+      <div class="rail-hint" aria-hidden="true">Arraste ou use as setas para ver mais</div>
+
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section section-alt" id="sobre">
+      <div class="container about">
+        <div class="about-visual reveal">
+          <span class="media-placeholder">Foto do salão</span>
+          <img src="img/salao.jpg" alt="Foto do salão TK Barbearia" loading="lazy">
+        </div>
+
+        <div class="about-text reveal">
+          <p class="eyebrow">Sobre a TK</p>
+          <h2>Tradição de bairro, cuidado de quem entende do ofício.</h2>
+          <p>A TK Barbearia atende na Praça de Caçapava Velha com foco em barba, cabelo e bigode. São mais de 10 mil clientes satisfeitos e milhares de avaliações no Google.</p>
+          <ul class="checks">
+            <li>Especialista em barba, cabelo e bigode</li>
+            <li>Atendimento de segunda a sábado</li>
+            <li>Agendamento rápido pelo WhatsApp</li>
+          </ul>
+          <a class="btn btn-ghost" href="https://instagram.com/barbeariadotuka" target="_blank" rel="noopener">Ver trabalhos no Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AVALIAÇÕES ===== -->
+    <section class="section" id="avaliacoes">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Avaliações</p>
+          <h2>O que dizem os nossos clientes</h2>
+          <p class="section-sub">Comentários publicados no Google.</p>
+        </header>
+
+        <div class="slider reveal" id="slider">
+          <div class="slides" id="slides">
+            <figure class="slide is-active">
+              <blockquote>“Excelente atendimento, com grandes profissionais... salão top, recomendo a todos.”</blockquote>
+              <figcaption>Altair Amaral</figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>“O melhor corte de cabelo, e o melhor atendimento. Quem quiser pode vir conferir.”</blockquote>
+              <figcaption>Wanderson Francisco</figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>“Esse eu recomendo: profissional, excelente qualidade.”</blockquote>
+              <figcaption>Vinicius Barbosa</figcaption>
+            </figure>
+          </div>
+
+          <div class="slider-controls">
+            <button class="slider-btn" id="prevSlide" aria-label="Avaliação anterior">‹</button>
+            <div class="dots" id="dots"></div>
+            <button class="slider-btn" id="nextSlide" aria-label="Próxima avaliação">›</button>
+          </div>
+        </div>
+
+        <div class="center-cta reveal">
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=TK+Barbearia+Ca%C3%A7apava" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO / HORÁRIOS ===== -->
+    <section class="section section-alt" id="contato">
+      <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+          <p class="eyebrow">Contato</p>
+          <h2>Venha conhecer a TK</h2>
+
+          <div class="info-block">
+            <h3>Endereço</h3>
+            <p>R. São Jorge, Caçapava Velha<br>Caçapava – SP, 12283-535</p>
+          </div>
+
+          <div class="info-block">
+         </div>
+
+          <div class="info-block">
+            <h3>Horário de funcionamento</h3>
+            <table class="hours">
+              <tbody>
+                <tr data-day="1"><td>Segunda-feira</td><td>08:00 – 19:00</td></tr>
+                <tr data-day="2"><td>Terça-feira</td><td>08:00 – 19:00</td></tr>
+                <tr data-day="3"><td>Quarta-feira</td><td>08:00 – 19:00</td></tr>
+                <tr data-day="4"><td>Quinta-feira</td><td>08:00 – 19:00</td></tr>
+                <tr data-day="5"><td>Sexta-feira</td><td>08:00 – 19:00</td></tr>
+                <tr data-day="6"><td>Sábado</td><td>08:00 – 19:00</td></tr>
+                <tr data-day="0"><td>Domingo</td><td>Fechado*</td></tr>
+              </tbody>
+            </table>
+            <p class="note">*Em feriados, o horário pode ser diferente. Confirme pelo WhatsApp.</p>
+          </div>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar no WhatsApp</a>
+            <a class="btn btn-ghost" href="https://instagram.com/barbeariadotuka" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+
+        <div class="map reveal">
+          <iframe
+            title="Localização da TK Barbearia em Caçapava"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=TK%20Barbearia%20R.%20S%C3%A3o%20Jorge%2C%20Ca%C3%A7apava%20Velha%2C%20Ca%C3%A7apava%20-%20SP&output=embed">
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <img class="logo-img logo-img-sm" src="img/logo.png" alt="Logo TK Barbearia">
+      <p>© <span id="year"></span> TK Barbearia · Caçapava – SP</p>
+      <div class="socials">
+        <a href="https://instagram.com/barbeariadotuka" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.me/5512997213386" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div class="dev-credit">
+        <span>Site Desenvolvido por Vinícius Fontella</span>
+        <a class="btn btn-small" href="https://wa.me/5512991079757?text=Ol%C3%A1%20Vin%C3%ADcius!%20Vi%20o%20site%20da%20TK%20Barbearia%20e%20quero%20falar%20com%20voc%C3%AA." target="_blank" rel="noopener">Entre em contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a class="whats-float" href="https://wa.me/5512997213386?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.13c-.25.7-1.45 1.34-2 1.4-.52.06-1.18.09-1.9-.12-.44-.13-1-.33-1.72-.64-3.03-1.31-5.01-4.37-5.16-4.57-.15-.2-1.23-1.64-1.23-3.13 0-1.49.78-2.22 1.06-2.52.28-.3.61-.37.81-.37.2 0 .4 0 .58.01.19.01.44-.07.69.53.25.6.85 2.08.92 2.23.08.15.13.33.03.53-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.61.17.3.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.34 1.45.3.15.47.13.65-.08.17-.2.75-.88.95-1.18.2-.3.4-.25.68-.15.28.1 1.78.84 2.08.99.3.15.5.23.57.36.08.13.08.75-.17 1.45z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
